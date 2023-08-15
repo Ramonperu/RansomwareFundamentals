@@ -28,45 +28,45 @@ Vectores mas tipicos:
 
 La primera buena practica para prevenir este tipo de ataques radica en la base, la concienciación formacion y entrenamiento del humano puede reducir en gran medida el riesgo. Ademas:
 
-- Tener copias de respaldo: La extorsion del ransomware solo se da cuando el atacante consigue cifrar recursos que son únicos e irrecuperables. Si disponemos de una copia de seguridad nos respaldaremos.
-- Mantener el sistema actualizado.
-- Políticas BYOD(Bring Your Own Device): Es habitual que las empresas adopten la política de dejar usar sus dispositivos electrónicos como medio de trabajo, hay que definir unas reglas de seguridad estrictas ante estas politicas.
-- Contraseñas seguras: Usar contraseñas robustas y no usar credenciales configuradas por defecto.
-- Antivirus: Disponer de antivirus y una buena configuración del cortafuegos(Firewall).
-- Antispam: Disponer de un sistema antispam a nivel de correo electronico y establecer un filtrado alto.
-- Políticas de seguridad: Establecer politicas de seguridad para impedir ejecución de ficheros en directorios comunmente atacados por ransomware(AppData, LocalAppData...) Herramientas como AppLocker Cryptoprevent permiten realizar estas configuraciones.
-- IDS/IPS: Ambos sistemas se encargan de vigilar el tráfico, y para ello examinan la red y los puertos, analizando paquetes de datos, para detectar patrones sospechosos.
-- Cuentas: No usar cuentas con altos privilegios.
-- Control de acceso: Mantener listas de control de acceso.
-- Bloqueadores: Recomendable el uso de bloqueadores de JavaScript.
-- Extensiones de ficheros: Activar la visualización de las extensiones de los ficheros para evitar la ejecución de código malicioso.
-- Anti-ransom: Herramienta que tratara de bloquear el proceso de cifrado o encontrar la clave de cifrado empleada.
-- Maquinas Virtuales: La acción del ransomware no llega a materializarse en maquinas virtuales.
+- *Tener copias de respaldo: La extorsion del ransomware solo se da cuando el atacante consigue cifrar recursos que son únicos e irrecuperables. Si disponemos de una copia de seguridad nos respaldaremos.*
+- *Mantener el sistema actualizado.*
+- *Políticas BYOD(Bring Your Own Device): Es habitual que las empresas adopten la política de dejar usar sus dispositivos electrónicos como medio de trabajo, hay que definir unas reglas de seguridad estrictas ante estas politicas.*
+- *Contraseñas seguras: Usar contraseñas robustas y no usar credenciales configuradas por defecto.*
+- *Antivirus: Disponer de antivirus y una buena configuración del cortafuegos(Firewall).*
+- *Antispam: Disponer de un sistema antispam a nivel de correo electronico y establecer un filtrado alto.*
+- *Políticas de seguridad: Establecer politicas de seguridad para impedir ejecución de ficheros en directorios comunmente atacados por ransomware(AppData, LocalAppData...) Herramientas como AppLocker Cryptoprevent permiten realizar estas configuraciones.*
+- *IDS/IPS: Ambos sistemas se encargan de vigilar el tráfico, y para ello examinan la red y los puertos, analizando paquetes de datos, para detectar patrones sospechosos.*
+- *Cuentas: No usar cuentas con altos privilegios.*
+- *Control de acceso: Mantener listas de control de acceso.*
+- *Bloqueadores: Recomendable el uso de bloqueadores de JavaScript.*
+- *Extensiones de ficheros: Activar la visualización de las extensiones de los ficheros para evitar la ejecución de código malicioso.*
+- *Anti-ransom: Herramienta que tratara de bloquear el proceso de cifrado o encontrar la clave de cifrado empleada.*
+- *Maquinas Virtuales: La acción del ransomware no llega a materializarse en maquinas virtuales.*
 
 ### ASPECTOS A TENER EN CUENTA
 
-- **Tiempo**: Algunas variedades usan el tiempo transcurrido después de la infección como un factor de presión para forzar el pago del rescate. Este tiempo también es crucial para la actuación.
-- **Eliminación de codigo dañino**: El objetivo principal no es conseguir persistencia en el equipo por lo que la eliminación suele ser sencilla y se encuentran varias herramientas para la desinfección
-- **Recuperación de Ficheros**: Una vez identificado el ransomware que ha infectado el equipo se pueden consultar sitios donde se indica si es posible el descifrado y la recuperación de archivos. Estas herramientas existen gracias a organizaciones como Karpersky McAfee Panda Security, Sophos, compañías antimalware... que liberan las claves maestras de forma publica y altruista.
-- **El pago no asegura la recuperacion de los ficheros**: Se han detectado paginas fraudulentas donde se realizan normalmente los pagos, pagar incentiva el uso de ransomware y no asegura la recuperación.
+- ***Tiempo**: Algunas variedades usan el tiempo transcurrido después de la infección como un factor de presión para forzar el pago del rescate. Este tiempo también es crucial para la actuación.*
+- ***Eliminación de codigo dañino**: El objetivo principal no es conseguir persistencia en el equipo por lo que la eliminación suele ser sencilla y se encuentran varias herramientas para la desinfección*
+- ***Recuperación de Ficheros**: Una vez identificado el ransomware que ha infectado el equipo se pueden consultar sitios donde se indica si es posible el descifrado y la recuperación de archivos. Estas herramientas existen gracias a organizaciones como Karpersky McAfee Panda Security, Sophos, compañías antimalware... que liberan las claves maestras de forma publica y altruista.*
+- ***El pago no asegura la recuperacion de los ficheros**: Se han detectado paginas fraudulentas donde se realizan normalmente los pagos, pagar incentiva el uso de ransomware y no asegura la recuperación.*
 
-### PROCEDIMIENTO EMPLEADO POR EL CCN-CERT
+### *PROCEDIMIENTO EMPLEADO POR EL CCN-C*ERT
 
 #### DETERMINACION DEL ALCANCE DEL INCIDENTE:
 
 1. Información de contexto del incidente: 
-   - ¿Cuando se produjo la infeccion?
-   - ¿Como se produjo la infeccion?
-   - ¿Cuantos equipos afectados hay?
-   - ¿Se dispone de copia de seguridad de los datos?
-   - ¿Se ha realizado alguna acción de mitigación?
+   - *¿Cuando se produjo la infeccion?*
+   - *¿Como se produjo la infeccion?*
+   - *¿Cuantos equipos afectados hay?*
+   - *¿Se dispone de copia de seguridad de los datos?*
+   - *¿Se ha realizado alguna acción de mitigación?*
 2. Información técnica sobre la infección:
-   - Nota de rescate del ransomware.
-   - Muestra de ficheros cifrados (no mas de 2megas).
-   - Muestra del ransomware, del correo de phishing, fichero ofimático o evidencia que permita analizar el codigo.
+   - *Nota de rescate del ransomware.*
+   - *Muestra de ficheros cifrados (no mas de 2megas).*
+   - *Muestra del ransomware, del correo de phishing, fichero ofimático o evidencia que permita analizar el codigo.*
 3. Información de la red en la que se ha producido la infeccion
-   - Diagrama de red, con todos los componentes e interacciones entre ellos, routers firewalls servidores...
-   - Direccionamiento publico, IP y dominios expuestos.
+   - *Diagrama de red, con todos los componentes e interacciones entre ellos, routers firewalls servidores...*
+   - *Direccionamiento publico, IP y dominios expuestos.*
 
 #### LINEAS DE ACTUACION EN LA GESTION DE INCIDENTES:
 
