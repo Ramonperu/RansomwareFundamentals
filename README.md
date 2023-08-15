@@ -1,6 +1,6 @@
 # RANSOMWARE FUNDAMENTALS
 
-Bienvenidos a la guía básica, para principiantes, sobre ransomware realizada por Ramon Peinado Ruiz gracias al Curso de Ransomware ofrecido por el CCN
+Bienvenidos a la guía básica, para principiantes, sobre ransomware realizada por Ramon Peinado Ruiz gracias al Curso de Ransomware ofrecido por el CCN.
 
 ## CONCEPTOS BASICOS E HISTORIA
 
@@ -113,3 +113,8 @@ Además de estos enlaces, se puede consultar:
 
 <img src="/img/2ºimagenn.PNG"  />
 
+## BIBLIOGRAFIA y AGRADECIMIENTOS
+
+Esta guía básica no podía haber sido realizada sin la ayuda de este curso:
+
+Curso de Ransomware   --  Centro Criptológico Nacional Computer Emergency Response Team.
